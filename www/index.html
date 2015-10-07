@@ -21,18 +21,22 @@
     <!-- your app's js -->
     <script src="js/app.js"></script>
   </head>
-  <body>
+  <body ng-app="starter">
 
     <ion-pane>
 
-      <ion-tabs class="tabs-balanced tabs-icon-only">
-        <ion-tab title="Home" icon-on="ion-home" icon-off="ion-home"></ion-tab>
-        <ion-tab title="Messages" icon-on="ion-chatbubbles" icon-off="ion-chatbubbles"></ion-tab>
-        <ion-tab title="Settings" icon-on="ion-help-buoy" icon-off="ion-help-buoy"></ion-tab>
-      </ion-tabs>
-
       <ion-content>
+        <button class="button button-block button-positive">
+          S'inscrire avec Facebook
+        </button>
 
+        <button class="button button-block button-calm">
+          S'inscrire avec Twitter
+        </button>
+
+        <button class="button button-block button-assertive">
+          S'inscrire
+        </button>
       </ion-content>
 
     </ion-pane>
