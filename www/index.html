@@ -23,21 +23,21 @@
   </head>
   <body ng-app="starter">
 
-    <ion-pane>
+    <ion-pane class="casino-bg">
 
-      <ion-content>
-        <button class="button button-block button-positive">
-          S'inscrire avec Facebook
-        </button>
+          <ion-content class="div-center">
+            <div class="el-center">
+              <button class="button button-block button-positive ion-social-facebook" on-tap="goHome()">
+                S'inscrire avec Facebook
+              </button>
 
-        <button class="button button-block button-calm">
-          S'inscrire avec Twitter
-        </button>
+              <button class="button button-block button-calm ion-social-twitter" on-tap="goHome()">                S'inscrire avec Twitter
+              </button>
 
-        <button class="button button-block button-assertive">
-          S'inscrire
-        </button>
-      </ion-content>
+              <button class="button button-block button-assertive ion-email" on-tap="goHome()">                S'inscrire par Mail
+              </button>
+            </div>
+          </ion-content>
 
     </ion-pane>
   </body>

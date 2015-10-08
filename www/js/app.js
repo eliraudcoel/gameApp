@@ -18,8 +18,9 @@ angular.module('starter', ['ionic'])
   });
 })
 
-.config(function($stateProvider, $urlRouterProvider) {
-  $stateProvider
-
-  $urlRouterProvider.otherwise('/signup');
+.controller('MainCtrl', function($scope) {
+  $scope.goHome = function() {
+     console.log("GO HOME!!!");
+     $state.transitionTo("home");
+  };
 });
